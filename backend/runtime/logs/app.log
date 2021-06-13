@@ -1,0 +1,1072 @@
+2021-06-12 17:46:42 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 17:46:42 [172.26.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    '_csrf-backend' => '820afbe486aa1f186cb44406f2162c1530da9dc0f6de69bf64472f8ff956f0cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"GKKMBzfOJ2ta7WRw6Kvx2X5bTerqvTaV\";}'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:21080/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; _csrf-backend=820afbe486aa1f186cb44406f2162c1530da9dc0f6de69bf64472f8ff956f0cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22GKKMBzfOJ2ta7WRw6Kvx2X5bTerqvTaV%22%3B%7D; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49118'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623520002.0919
+    'REQUEST_TIME' => 1623520002
+    'argv' => []
+    'argc' => 0
+]
+2021-06-12 17:46:42 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-12 17:46:42 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 17:46:42 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    '_csrf-backend' => '820afbe486aa1f186cb44406f2162c1530da9dc0f6de69bf64472f8ff956f0cca:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"GKKMBzfOJ2ta7WRw6Kvx2X5bTerqvTaV\";}'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:21080/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; _csrf-backend=820afbe486aa1f186cb44406f2162c1530da9dc0f6de69bf64472f8ff956f0cca%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22GKKMBzfOJ2ta7WRw6Kvx2X5bTerqvTaV%22%3B%7D; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49118'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623520002.1899
+    'REQUEST_TIME' => 1623520002
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-12 17:56:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /app/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /app/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /app/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema('user')
+#10 /app/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata('{{%user}}', 'schema', false)
+#11 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('{{%user}}')
+#12 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#13 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#16 /app/common/models/User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#17 /app/common/models/LoginForm.php(73): common\models\User::findByUsername('demo')
+#18 /app/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#19 /app/vendor/yiisoft/yii2/validators/InlineValidator.php(84): common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator), 'demo')
+#20 /app/vendor/yiisoft/yii2/validators/Validator.php(261): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#21 /app/vendor/yiisoft/yii2/base/Model.php(368): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#22 /app/common/models/LoginForm.php(58): yii\base\Model->validate()
+#23 /app/backend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#24 [internal function]: backend\controllers\SiteController->actionLogin()
+#25 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#26 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#27 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('login', Array)
+#28 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('site/login', Array)
+#29 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 /app/backend/web/index.php(17): yii\base\Application->run()
+#31 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /app/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /app/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#4 /app/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /app/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema('user')
+#8 /app/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata('{{%user}}', 'schema', false)
+#9 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('{{%user}}')
+#10 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#11 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#14 /app/common/models/User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#15 /app/common/models/LoginForm.php(73): common\models\User::findByUsername('demo')
+#16 /app/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#17 /app/vendor/yiisoft/yii2/validators/InlineValidator.php(84): common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator), 'demo')
+#18 /app/vendor/yiisoft/yii2/validators/Validator.php(261): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#19 /app/vendor/yiisoft/yii2/base/Model.php(368): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#20 /app/common/models/LoginForm.php(58): yii\base\Model->validate()
+#21 /app/backend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#22 [internal function]: backend\controllers\SiteController->actionLogin()
+#23 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#24 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#25 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('login', Array)
+#26 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('site/login', Array)
+#27 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /app/backend/web/index.php(17): yii\base\Application->run()
+#29 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No such file or directory
+)
+
+2021-06-12 17:56:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 17:56:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 17:56:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'LcH1CYp5G7_Ouu_wm--zA2_mXLieoNllX1D-06jfAToAjsBK5D1S-LT9jq_Tq-JWWIQXz_mWjCw2B7Hg55p7Sw=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:21080/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '234'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:21080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:21080/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49166'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623520579.4832
+    'REQUEST_TIME' => 1623520579
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-12 18:06:57 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-12 18:06:57 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 18:06:57 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:21080/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49422'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623521217.3331
+    'REQUEST_TIME' => 1623521217
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-12 19:08:49 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-12 19:08:49 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 19:08:49 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49912'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623524929.1891
+    'REQUEST_TIME' => 1623524929
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-12 19:09:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /app/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /app/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /app/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /app/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#6 /app/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 /app/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema('user')
+#10 /app/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata('{{%user}}', 'schema', false)
+#11 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('{{%user}}')
+#12 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#13 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#14 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#15 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#16 /app/common/models/User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#17 /app/common/models/LoginForm.php(73): common\models\User::findByUsername('demo')
+#18 /app/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#19 /app/vendor/yiisoft/yii2/validators/InlineValidator.php(84): common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator), 'demo')
+#20 /app/vendor/yiisoft/yii2/validators/Validator.php(261): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#21 /app/vendor/yiisoft/yii2/base/Model.php(368): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#22 /app/common/models/LoginForm.php(58): yii\base\Model->validate()
+#23 /app/backend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#24 [internal function]: backend\controllers\SiteController->actionLogin()
+#25 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#26 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#27 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('login', Array)
+#28 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('site/login', Array)
+#29 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#30 /app/backend/web/index.php(17): yii\base\Application->run()
+#31 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /app/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /app/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /app/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /app/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare(true)
+#4 /app/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /app/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 /app/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema('user')
+#8 /app/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata('{{%user}}', 'schema', false)
+#9 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(435): yii\db\Schema->getTableSchema('{{%user}}')
+#10 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(262): yii\db\ActiveRecord::getTableSchema()
+#11 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(234): yii\db\ActiveRecord::filterValidColumnNames(Object(yii\db\Connection), Array)
+#12 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(191): yii\db\ActiveRecord::filterCondition(Array, Array)
+#13 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(112): yii\db\ActiveRecord::findByCondition(Array)
+#14 /app/common/models/User.php(85): yii\db\BaseActiveRecord::findOne(Array)
+#15 /app/common/models/LoginForm.php(73): common\models\User::findByUsername('demo')
+#16 /app/common/models/LoginForm.php(44): common\models\LoginForm->getUser()
+#17 /app/vendor/yiisoft/yii2/validators/InlineValidator.php(84): common\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator), 'demo')
+#18 /app/vendor/yiisoft/yii2/validators/Validator.php(261): yii\validators\InlineValidator->validateAttribute(Object(common\models\LoginForm), 'password')
+#19 /app/vendor/yiisoft/yii2/base/Model.php(368): yii\validators\Validator->validateAttributes(Object(common\models\LoginForm), Array)
+#20 /app/common/models/LoginForm.php(58): yii\base\Model->validate()
+#21 /app/backend/controllers/SiteController.php(80): common\models\LoginForm->login()
+#22 [internal function]: backend\controllers\SiteController->actionLogin()
+#23 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#24 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#25 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('login', Array)
+#26 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('site/login', Array)
+#27 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#28 /app/backend/web/index.php(17): yii\base\Application->run()
+#29 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 2002
+    [2] => No such file or directory
+)
+
+2021-06-12 19:09:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 19:09:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 19:09:19 [172.26.0.1][-][cd2e655025a3ecb6df1825ef51651569][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = [
+    '_csrf-backend' => 'V5rAB6h45QUSeAIEeyzNrA0wTGqSu5ddYkHMW3bmdlB61fVExjysQmg_Y1szaJz5OlIHHfWNwhQLFoNoOaMMIQ=='
+    'LoginForm' => [
+        'username' => 'demo'
+        'password' => 'demo'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '234'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_ORIGIN' => 'http://localhost:21080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost:21080/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49958'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623524959.2552
+    'REQUEST_TIME' => 1623524959
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-12 19:09:22 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-12 19:09:22 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 19:09:22 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '49960'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623524962.7823
+    'REQUEST_TIME' => 1623524962
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-12 19:13:09 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-12 19:13:09 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-12 19:13:09 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    'phpMyAdmin' => '00e926206bc52e4bf38da75b0f32fc86'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:21080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; phpMyAdmin=00e926206bc52e4bf38da75b0f32fc86; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 21080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.2'
+    'SERVER_PORT' => '21080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '60710'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623525189.0539
+    'REQUEST_TIME' => 1623525189
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-13 14:50:23 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-13 14:50:23 [172.26.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '8907528dbf3e6accefd379adbaea8c2c'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8081/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=8907528dbf3e6accefd379adbaea8c2c'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8081</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '8081'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '51554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623595814.6929
+    'REQUEST_TIME' => 1623595814
+    'argv' => []
+    'argc' => 0
+]
+2021-06-13 14:50:25 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-13 14:50:25 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-13 14:50:25 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '8907528dbf3e6accefd379adbaea8c2c'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8081/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=8907528dbf3e6accefd379adbaea8c2c'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8081</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '8081'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '51554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623595823.6584
+    'REQUEST_TIME' => 1623595823
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-13 14:51:37 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-13 14:51:37 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-13 14:51:36 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '8907528dbf3e6accefd379adbaea8c2c'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8081/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=8907528dbf3e6accefd379adbaea8c2c'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8081</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '8081'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '51668'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623595896.9887
+    'REQUEST_TIME' => 1623595896
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]
+2021-06-13 14:51:40 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+    in /app/backend/views/layouts/blank.php:33
+    in /app/backend/controllers/SiteController.php:86
+2021-06-13 14:51:40 [172.26.0.1][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 172.26.0.1
+2021-06-13 14:51:40 [172.26.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '8907528dbf3e6accefd379adbaea8c2c'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => 'http://localhost:8081/'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8081'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=8907528dbf3e6accefd379adbaea8c2c'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8081</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.3'
+    'SERVER_PORT' => '8081'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/backend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/backend/web/index.php'
+    'REMOTE_PORT' => '51668'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1623595900.3644
+    'REQUEST_TIME' => 1623595900
+    'argv' => [
+        0 => 'r=site%2Flogin'
+    ]
+    'argc' => 1
+]

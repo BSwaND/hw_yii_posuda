@@ -1,0 +1,863 @@
+2021-06-13 15:11:42 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(894): yii\console\controllers\MigrateController->getMigrationHistory()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(169): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#14 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#21 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#22 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#23 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(211): yii\db\Schema->getTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(894): yii\console\controllers\MigrateController->getMigrationHistory()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(169): yii\console\controllers\BaseMigrateController->getNewMigrations()
+#12 [internal function]: yii\console\controllers\BaseMigrateController->actionUp()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#20 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#21 {main}
+Additional Information:
+
+2021-06-13 15:11:42 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/K55u:@/tmp/.ICE-unix/1501,unix/K55u:/tmp/.ICE-unix/1501'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_SCREEN_SCALE_FACTORS' => 'LVDS-1-1=1;VGA-1-1=1;HDMI-1-1=1;DP-1-1=1;'
+    'SNAP_REVISION' => '217'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'SNAP_REAL_HOME' => '/home/denis'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SNAP_USER_COMMON' => '/home/denis/snap/phpstorm/common'
+    'LANGUAGE' => 'ru_UA:ru'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-tSg6H9M4yNR6/agent.1379'
+    'TERM_SESSION_ID' => '7766bcff-f8bb-4795-8a8f-e4019555bb6c'
+    'SNAP_INSTANCE_KEY' => ''
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1427'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/denis/Рабочий стол/lessn_test_yii'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'denis'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/denis/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'K55u;1623595149;817262;1546_TIME11550505'
+    'SNAP_CONTEXT' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'HOME' => '/home/denis'
+    'LANG' => 'ru_UA.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'SNAP_ARCH' => 'amd64'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'SNAP_USER_DATA' => '/home/denis/snap/phpstorm/217'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SNAP_REEXEC' => ''
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'denis'
+    'SNAP' => '/snap/phpstorm/217'
+    'KDE_SESSION_VERSION' => '5'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'SNAP_VERSION' => '2021.1.3'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SNAP_COOKIE' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'SNAP_DATA' => '/var/snap/phpstorm/217'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623597102.4355
+    'REQUEST_TIME' => 1623597102
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2021-06-13 15:20:50 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#19 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2021-06-13 15:20:50 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/K55u:@/tmp/.ICE-unix/1501,unix/K55u:/tmp/.ICE-unix/1501'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_SCREEN_SCALE_FACTORS' => 'LVDS-1-1=1;VGA-1-1=1;HDMI-1-1=1;DP-1-1=1;'
+    'SNAP_REVISION' => '217'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'SNAP_REAL_HOME' => '/home/denis'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SNAP_USER_COMMON' => '/home/denis/snap/phpstorm/common'
+    'LANGUAGE' => 'ru_UA:ru'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-tSg6H9M4yNR6/agent.1379'
+    'TERM_SESSION_ID' => '7766bcff-f8bb-4795-8a8f-e4019555bb6c'
+    'SNAP_INSTANCE_KEY' => ''
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1427'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/denis/Рабочий стол/lessn_test_yii'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'denis'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/denis/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'K55u;1623595149;817262;1546_TIME11550505'
+    'SNAP_CONTEXT' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'HOME' => '/home/denis'
+    'LANG' => 'ru_UA.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'SNAP_ARCH' => 'amd64'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'SNAP_USER_DATA' => '/home/denis/snap/phpstorm/217'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SNAP_REEXEC' => ''
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'denis'
+    'SNAP' => '/snap/phpstorm/217'
+    'KDE_SESSION_VERSION' => '5'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'SNAP_VERSION' => '2021.1.3'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SNAP_COOKIE' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'SNAP_DATA' => '/var/snap/phpstorm/217'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623597650.9522
+    'REQUEST_TIME' => 1623597650
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'creta_product'
+    ]
+    'argc' => 3
+]
+2021-06-13 15:22:43 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#19 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2021-06-13 15:22:43 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/K55u:@/tmp/.ICE-unix/1501,unix/K55u:/tmp/.ICE-unix/1501'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_SCREEN_SCALE_FACTORS' => 'LVDS-1-1=1;VGA-1-1=1;HDMI-1-1=1;DP-1-1=1;'
+    'SNAP_REVISION' => '217'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'SNAP_REAL_HOME' => '/home/denis'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SNAP_USER_COMMON' => '/home/denis/snap/phpstorm/common'
+    'LANGUAGE' => 'ru_UA:ru'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-tSg6H9M4yNR6/agent.1379'
+    'TERM_SESSION_ID' => '7766bcff-f8bb-4795-8a8f-e4019555bb6c'
+    'SNAP_INSTANCE_KEY' => ''
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1427'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/denis/Рабочий стол/lessn_test_yii'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'denis'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/denis/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'K55u;1623595149;817262;1546_TIME11550505'
+    'SNAP_CONTEXT' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'HOME' => '/home/denis'
+    'LANG' => 'ru_UA.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'SNAP_ARCH' => 'amd64'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'SNAP_USER_DATA' => '/home/denis/snap/phpstorm/217'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SNAP_REEXEC' => ''
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'denis'
+    'SNAP' => '/snap/phpstorm/217'
+    'KDE_SESSION_VERSION' => '5'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'SNAP_VERSION' => '2021.1.3'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SNAP_COOKIE' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'SNAP_DATA' => '/var/snap/phpstorm/217'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623597763.1891
+    'REQUEST_TIME' => 1623597763
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'creta_product'
+    ]
+    'argc' => 3
+]
+2021-06-13 15:30:41 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] No such file or directory in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#19 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2021-06-13 15:30:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/K55u:@/tmp/.ICE-unix/1501,unix/K55u:/tmp/.ICE-unix/1501'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_SCREEN_SCALE_FACTORS' => 'LVDS-1-1=1;VGA-1-1=1;HDMI-1-1=1;DP-1-1=1;'
+    'SNAP_REVISION' => '217'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'SNAP_REAL_HOME' => '/home/denis'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SNAP_USER_COMMON' => '/home/denis/snap/phpstorm/common'
+    'LANGUAGE' => 'ru_UA:ru'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-tSg6H9M4yNR6/agent.1379'
+    'TERM_SESSION_ID' => '7766bcff-f8bb-4795-8a8f-e4019555bb6c'
+    'SNAP_INSTANCE_KEY' => ''
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1427'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/denis/Рабочий стол/lessn_test_yii'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'denis'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/denis/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'K55u;1623595149;817262;1546_TIME11550505'
+    'SNAP_CONTEXT' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'HOME' => '/home/denis'
+    'LANG' => 'ru_UA.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'SNAP_ARCH' => 'amd64'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'SNAP_USER_DATA' => '/home/denis/snap/phpstorm/217'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SNAP_REEXEC' => ''
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'denis'
+    'SNAP' => '/snap/phpstorm/217'
+    'KDE_SESSION_VERSION' => '5'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'SNAP_VERSION' => '2021.1.3'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SNAP_COOKIE' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'SNAP_DATA' => '/var/snap/phpstorm/217'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623598241.7851
+    'REQUEST_TIME' => 1623598241
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'creta_product'
+    ]
+    'argc' => 3
+]
+2021-06-13 15:33:26 [-][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#19 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2021-06-13 15:33:26 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/K55u:@/tmp/.ICE-unix/1501,unix/K55u:/tmp/.ICE-unix/1501'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_SCREEN_SCALE_FACTORS' => 'LVDS-1-1=1;VGA-1-1=1;HDMI-1-1=1;DP-1-1=1;'
+    'SNAP_REVISION' => '217'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'SNAP_REAL_HOME' => '/home/denis'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SNAP_USER_COMMON' => '/home/denis/snap/phpstorm/common'
+    'LANGUAGE' => 'ru_UA:ru'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-tSg6H9M4yNR6/agent.1379'
+    'TERM_SESSION_ID' => '7766bcff-f8bb-4795-8a8f-e4019555bb6c'
+    'SNAP_INSTANCE_KEY' => ''
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1427'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/denis/Рабочий стол/lessn_test_yii'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'denis'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/denis/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'K55u;1623595149;817262;1546_TIME11550505'
+    'SNAP_CONTEXT' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'HOME' => '/home/denis'
+    'LANG' => 'ru_UA.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'SNAP_ARCH' => 'amd64'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'SNAP_USER_DATA' => '/home/denis/snap/phpstorm/217'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SNAP_REEXEC' => ''
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'denis'
+    'SNAP' => '/snap/phpstorm/217'
+    'KDE_SESSION_VERSION' => '5'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'SNAP_VERSION' => '2021.1.3'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SNAP_COOKIE' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'SNAP_DATA' => '/var/snap/phpstorm/217'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623598406.4636
+    'REQUEST_TIME' => 1623598406
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'creta_product'
+    ]
+    'argc' => 3
+]
+2021-06-13 15:35:15 [-][-][-][error][yii\db\Exception] PDOException: PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next PDOException: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:719
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(719): PDO->__construct()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(638): yii\db\Connection->createPdoInstance()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#11 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#13 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#19 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#20 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#21 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#22 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php:649
+Stack trace:
+#0 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1059): yii\db\Connection->open()
+#1 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Connection.php(1046): yii\db\Connection->getMasterPdo()
+#2 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(261): yii\db\Connection->getSlavePdo()
+#3 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(1163): yii\db\Command->prepare()
+#4 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Command.php(410): yii\db\Command->queryInternal()
+#5 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(319): yii\db\Command->queryAll()
+#6 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/mysql/Schema.php(125): yii\db\mysql\Schema->findColumns()
+#7 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(758): yii\db\mysql\Schema->loadTableSchema()
+#8 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/db/Schema.php(194): yii\db\Schema->getTableMetadata()
+#9 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/MigrateController.php(371): yii\db\Schema->getTableSchema()
+#10 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(645): yii\console\controllers\MigrateController->getMigrationNameLimit()
+#11 [internal function]: yii\console\controllers\BaseMigrateController->actionCreate()
+#12 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#13 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams()
+#14 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction()
+#15 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction()
+#16 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction()
+#17 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction()
+#18 /home/denis/Рабочий стол/lessn_test_yii/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest()
+#19 /home/denis/Рабочий стол/lessn_test_yii/yii(23): yii\base\Application->run()
+#20 {main}
+Additional Information:
+
+2021-06-13 15:35:15 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'SHELL' => '/bin/bash'
+    'SESSION_MANAGER' => 'local/K55u:@/tmp/.ICE-unix/1501,unix/K55u:/tmp/.ICE-unix/1501'
+    'QT_ACCESSIBILITY' => '1'
+    'QT_SCREEN_SCALE_FACTORS' => 'LVDS-1-1=1;VGA-1-1=1;HDMI-1-1=1;DP-1-1=1;'
+    'SNAP_REVISION' => '217'
+    'XDG_CONFIG_DIRS' => '/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'
+    'XDG_SESSION_PATH' => '/org/freedesktop/DisplayManager/Session0'
+    'SNAP_REAL_HOME' => '/home/denis'
+    'TERMINAL_EMULATOR' => 'JetBrains-JediTerm'
+    'SNAP_USER_COMMON' => '/home/denis/snap/phpstorm/common'
+    'LANGUAGE' => 'ru_UA:ru'
+    'SSH_AUTH_SOCK' => '/tmp/ssh-tSg6H9M4yNR6/agent.1379'
+    'TERM_SESSION_ID' => '7766bcff-f8bb-4795-8a8f-e4019555bb6c'
+    'SNAP_INSTANCE_KEY' => ''
+    'DESKTOP_SESSION' => 'plasma'
+    'SSH_AGENT_PID' => '1427'
+    'BAMF_DESKTOP_FILE_HINT' => '/var/lib/snapd/desktop/applications/phpstorm_phpstorm.desktop'
+    'XDG_SEAT' => 'seat0'
+    'PWD' => '/home/denis/Рабочий стол/lessn_test_yii'
+    'XDG_SESSION_DESKTOP' => 'KDE'
+    'LOGNAME' => 'denis'
+    'XDG_SESSION_TYPE' => 'x11'
+    'GPG_AGENT_INFO' => '/run/user/1000/gnupg/S.gpg-agent:0:1'
+    'XAUTHORITY' => '/home/denis/.Xauthority'
+    'DESKTOP_STARTUP_ID' => 'K55u;1623595149;817262;1546_TIME11550505'
+    'SNAP_CONTEXT' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'HOME' => '/home/denis'
+    'LANG' => 'ru_UA.UTF-8'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_CURRENT_DESKTOP' => 'KDE'
+    'SNAP_ARCH' => 'amd64'
+    'SNAP_INSTANCE_NAME' => 'phpstorm'
+    'SNAP_USER_DATA' => '/home/denis/snap/phpstorm/217'
+    'XDG_SEAT_PATH' => '/org/freedesktop/DisplayManager/Seat0'
+    'SNAP_REEXEC' => ''
+    'KDE_SESSION_UID' => '1000'
+    'LESSCLOSE' => '/usr/bin/lesspipe %s %s'
+    'XDG_SESSION_CLASS' => 'user'
+    'TERM' => 'xterm-256color'
+    'LESSOPEN' => '| /usr/bin/lesspipe %s'
+    'USER' => 'denis'
+    'SNAP' => '/snap/phpstorm/217'
+    'KDE_SESSION_VERSION' => '5'
+    'SNAP_COMMON' => '/var/snap/phpstorm/common'
+    'SNAP_VERSION' => '2021.1.3'
+    'DISPLAY' => ':0'
+    'SHLVL' => '1'
+    'SNAP_LIBRARY_PATH' => '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void'
+    'SNAP_COOKIE' => 'UlC7rhTsE8q94GW6TYFrTvwk43Kc2QeNYOs23mA1NIZLAj_U6KA8'
+    'XDG_VTNR' => '1'
+    'XDG_SESSION_ID' => '1'
+    'SNAP_DATA' => '/var/snap/phpstorm/217'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'SNAP_NAME' => 'phpstorm'
+    'QT_AUTO_SCREEN_SCALE_FACTOR' => '0'
+    'XCURSOR_THEME' => 'breeze_cursors'
+    'XDG_DATA_DIRS' => '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'
+    'KDE_FULL_SESSION' => 'true'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:path=/run/user/1000/bus'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623598515.627
+    'REQUEST_TIME' => 1623598515
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate/create'
+        2 => 'creta_product'
+    ]
+    'argc' => 3
+]
