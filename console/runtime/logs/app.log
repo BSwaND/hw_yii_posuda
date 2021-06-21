@@ -861,3 +861,777 @@ $_SERVER = [
     ]
     'argc' => 3
 ]
+2021-06-15 19:38:03 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:37:55 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623785875.1494
+    'REQUEST_TIME' => 1623785875
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:40:37 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:40:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786033.233
+    'REQUEST_TIME' => 1623786033
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:42:12 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:42:04 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786124.6928
+    'REQUEST_TIME' => 1623786124
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:42:27 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:42:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786142.8874
+    'REQUEST_TIME' => 1623786142
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:45:34 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:45:33 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786333.5164
+    'REQUEST_TIME' => 1623786333
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:54:22 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:54:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786860.7443
+    'REQUEST_TIME' => 1623786860
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:54:26 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:54:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786864.7621
+    'REQUEST_TIME' => 1623786864
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:54:29 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:54:27 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786867.5464
+    'REQUEST_TIME' => 1623786867
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
+2021-06-15 19:54:31 [-][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class m210613_153736_creta_product does not exist in /app/vendor/yiisoft/yii2/di/Container.php:508
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(508): ReflectionClass->__construct('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#2 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#6 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#7 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /app/yii(23): yii\base\Application->run()
+#16 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "m210613_153736_creta_product". in /app/vendor/yiisoft/yii2/di/Container.php:510
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/di/Container.php(386): yii\di\Container->getDependencies('m210613_153736_...')
+#1 /app/vendor/yiisoft/yii2/di/Container.php(171): yii\di\Container->build('m210613_153736_...', Array, Array)
+#2 /app/vendor/yiisoft/yii2/BaseYii.php(365): yii\di\Container->get('m210613_153736_...', Array, Array)
+#3 /app/vendor/yiisoft/yii2/console/controllers/MigrateController.php(202): yii\BaseYii::createObject(Array)
+#4 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(771): yii\console\controllers\MigrateController->createMigration('m210613_153736_...')
+#5 /app/vendor/yiisoft/yii2/console/controllers/BaseMigrateController.php(266): yii\console\controllers\BaseMigrateController->migrateDown('m210613_153736_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionDown(1)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/console/Controller.php(184): yii\base\Controller->runAction('down', Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\console\Controller->runAction('down', Array)
+#11 /app/vendor/yiisoft/yii2/console/Application.php(181): yii\base\Module->runAction('migrate/down', Array)
+#12 /app/vendor/yiisoft/yii2/console/Application.php(148): yii\console\Application->runAction('migrate/down', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 /app/yii(23): yii\base\Application->run()
+#15 {main}
+2021-06-15 19:54:30 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'PHP_ENABLE_XDEBUG' => '0'
+    'PHP_USER_ID' => '33'
+    'HOSTNAME' => '6cb6c223cd34'
+    'PHP_VERSION' => '7.4.16'
+    'APACHE_CONFDIR' => '/etc/apache2'
+    'VERSION_PRESTISSIMO_PLUGIN' => '^0.3.10'
+    'PHP_INI_DIR' => '/usr/local/etc/php'
+    'GPG_KEYS' => '42670A7FE4D0441C8E4632349E4FDC074A4EF02D 5A52880781F755608BF815FC910DEB46F53EA312'
+    'PHP_LDFLAGS' => '-Wl,-O1 -pie'
+    'PWD' => '/app'
+    'HOME' => '/root'
+    'PHP_SHA256' => '1c16cefaf88ded4c92eed6a8a41eb682bb2ef42429deb55f1c4ba159053fb98b'
+    'PHPIZE_DEPS' => 'autoconf 		dpkg-dev 		file 		g++ 		gcc 		libc-dev 		make 		pkg-config 		re2c'
+    'TERM' => 'linux'
+    'PHP_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz'
+    'PHP_EXTRA_CONFIGURE_ARGS' => '--with-apxs2 --disable-cgi'
+    'SHLVL' => '1'
+    'COMPOSER_ALLOW_SUPERUSER' => '1'
+    'PHP_CFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    'APACHE_ENVVARS' => '/etc/apache2/envvars'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'PHP_EXTRA_BUILD_DEPS' => 'apache2-dev'
+    'DEBIAN_FRONTEND' => 'noninteractive'
+    'PHP_ASC_URL' => 'https://www.php.net/distributions/php-7.4.16.tar.xz.asc'
+    'PHP_CPPFLAGS' => '-fstack-protector-strong -fpic -fpie -O2 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64'
+    '_' => '/app/yii'
+    'PHP_SELF' => '/app/yii'
+    'SCRIPT_NAME' => '/app/yii'
+    'SCRIPT_FILENAME' => '/app/yii'
+    'PATH_TRANSLATED' => '/app/yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1623786870.686
+    'REQUEST_TIME' => 1623786870
+    'argv' => [
+        0 => '/app/yii'
+        1 => 'migrate/down'
+    ]
+    'argc' => 2
+]
