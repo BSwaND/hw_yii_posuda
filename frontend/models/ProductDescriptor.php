@@ -8,7 +8,12 @@
   
   class ProductDescriptor extends ActiveRecord
   {
-    public function getProduct()
+    static function tableName(): string
+    {
+       return '{{product_descriptor}}';
+    }
+  
+    public function getProduct(): ActiveQuery
     {
       return $this->hasOne(Product::className(), ['id' => 'product_id']);
     }

@@ -3,6 +3,7 @@
   namespace frontend\controllers;
   
   
+  use Yii;
   use yii\web\Controller;
   use frontend\models\Product;
 
@@ -13,33 +14,32 @@
    */
   class ProductController  extends Controller
   {
+    
+    private $language;
+  
     /**
+     * ProductController constructor.
+     * @param $id
+     * @param $module
+     * @param array $config
+     */
+    public function __construct($id, $module, $config = [])
+    {
+      parent::__construct($id, $module, $config);
+       $this->language =  Yii::$app->params['language'];
+    }
+  
+    /**
+     * @param int $id
      * @return string
      */
-    public function actionIndex()
+    public function actionIndex(int $id): string
     {
-    
-//      $customers = Customer::find()
-//        ->select('customer.*')
-//        ->leftJoin('order', '`order`.`customer_id` = `customer`.`id`')
-//        ->where(['order.status' => Order::STATUS_ACTIVE])
-//        ->with('orders')
-//        ->all();
 
-//      Customer::find()
-//        ->joinWith('orders')
-//        ->where(['order.status' => Order::STATUS_ACTIVE])
-//        ->all();
-
-//      $orders = Order::find()->joinWith('customer')->orderBy('customer.id, order.id')->all();
+     // $product = Product::findOne($id)->productDescriptor;
+      //$product = Product::findOne($id);
+      $product = Product::getProduct($id);
       
-      
-      $product = Product::find()
-        ->select('product.*,product_descriptor.*')
-        ->joinWith('productDescriptor')
-        //->groupBy('{{product}}.id')
-        ->all();
-      
-      return $this->render('index', ['product'=>$product]);
+      return $this->render('index', ['product'=>$product->productDescriptor]);
     }
   }

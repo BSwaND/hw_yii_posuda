@@ -1,4 +1,9 @@
 <?php
+	/**
+	 * @var $product \frontend\models\Product
+	 */
+	
+	//$this->title = $product-;
   
   dump($product);
 ?>
