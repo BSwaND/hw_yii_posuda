@@ -13,6 +13,8 @@
    */
   class Product  extends ActiveRecord
   {
+    public $title;
+    
     /**
      * @return string
      */
@@ -33,15 +35,25 @@
      * @return array|ActiveRecord[]
      */
     static function getProduct(int $id)
-    {
-      $product = Product::find()
-        ->joinWith('productDescriptor')
-        ->where(['and',[
-          'product_descriptor.product_id' => $id,
-          'product_descriptor.language' => 1]
-        ])
+    {  
+      /*return  Product::find()
+        ->where(['id' => $id])
+        ->with('productDescriptor')
         ->one();
-    
-    return $product;
+      */
+      /*
+      return  Product::find()
+        ->where(['product.id' => $id])
+        ->joinWith(['productDescriptor'])
+        ->one();
+        */
+      return  Product::find()
+        ->select(['product.*','product_descriptor.*'])
+        ->where(['product.id' => $id])
+        ->leftJoin( 'product_descriptor', 'product.id = product_descriptor.product_id ')
+       // ->with('productDescriptor')
+        ->andWhere(['product_descriptor.language' =>2 ])
+        ->one();
+
     }
   }

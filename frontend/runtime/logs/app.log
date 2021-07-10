@@ -15779,3 +15779,1989 @@ $_SERVER = [
     ]
     'argc' => 1
 ]
+2021-07-04 19:55:08 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'productDescriptor' of non-object in /app/frontend/controllers/ProductController.php:43
+Stack trace:
+#0 /app/frontend/controllers/ProductController.php(43): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/app/frontend/c...', 43, Array)
+#1 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#2 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#5 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#6 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /app/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-07-04 19:55:08 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '55066'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625428508.4355
+    'REQUEST_TIME' => 1625428508
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-04 19:57:18 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property 'productDescriptor' of non-object in /app/frontend/controllers/ProductController.php:43
+Stack trace:
+#0 /app/frontend/controllers/ProductController.php(43): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', '/app/frontend/c...', 43, Array)
+#1 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#2 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#5 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#6 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /app/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-07-04 19:57:18 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '55140'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625428638.7093
+    'REQUEST_TIME' => 1625428638
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-04 19:57:48 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Relation names are case sensitive. frontend\models\Product has a relation named "productDescriptor" instead of "ProductDescriptor". in /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1266
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(562): yii\db\BaseActiveRecord->getRelation('ProductDescript...')
+#1 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(462): yii\db\ActiveQuery->joinWithRelations(Object(frontend\models\Product), Array, 'LEFT JOIN')
+#2 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(146): yii\db\ActiveQuery->buildJoinWith()
+#3 /app/vendor/yiisoft/yii2/db/QueryBuilder.php(227): yii\db\ActiveQuery->prepare(Object(yii\db\mysql\QueryBuilder))
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(328): yii\db\QueryBuilder->build(Object(yii\db\ActiveQuery))
+#5 /app/vendor/yiisoft/yii2/db/Query.php(249): yii\db\ActiveQuery->createCommand(Object(yii\db\Connection))
+#6 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 /app/frontend/models/Product.php(39): yii\db\ActiveQuery->all()
+#8 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#9 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#10 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#11 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#12 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#13 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#14 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /app/frontend/web/index.php(17): yii\base\Application->run()
+#16 {main}
+2021-07-04 19:57:48 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '55182'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625428668.8628
+    'REQUEST_TIME' => 1625428668
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-04 19:59:27 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\db\ActiveQuery::re in /app/vendor/yiisoft/yii2/base/Component.php:155
+Stack trace:
+#0 /app/frontend/models/Product.php(37): yii\base\Component->__get('re')
+#1 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#2 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#3 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#5 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#6 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /app/frontend/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2021-07-04 19:59:27 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '55210'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625428767.956
+    'REQUEST_TIME' => 1625428767
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-04 19:59:37 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\db\ActiveQuery::productDescriptor in /app/vendor/yiisoft/yii2/base/Component.php:155
+Stack trace:
+#0 /app/frontend/controllers/ProductController.php(43): yii\base\Component->__get('productDescript...')
+#1 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#2 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#3 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#4 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#5 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#6 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 /app/frontend/web/index.php(17): yii\base\Application->run()
+#8 {main}
+2021-07-04 19:59:37 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '55234'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625428777.7541
+    'REQUEST_TIME' => 1625428777
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 10:24:10 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'language' in 'where clause' in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(41): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'language' in 'where clause'
+The SQL being executed was: SELECT * FROM `product` WHERE `language`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(41): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'language' in 'where clause'
+)
+
+2021-07-10 10:24:10 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '33908'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625912650.498
+    'REQUEST_TIME' => 1625912650
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 10:27:03 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productDescriptor.language' in 'where clause' in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(41): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'productDescriptor.language' in 'where clause'
+The SQL being executed was: SELECT * FROM `product` WHERE `productDescriptor`.`language`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(41): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'productDescriptor.language' in 'where clause'
+)
+
+2021-07-10 10:27:03 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '33994'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625912823.8397
+    'REQUEST_TIME' => 1625912823
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 10:27:26 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_descriptor.language' in 'where clause' in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(41): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_descriptor.language' in 'where clause'
+The SQL being executed was: SELECT * FROM `product` WHERE `product_descriptor`.`language`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(41): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'product_descriptor.language' in 'where clause'
+)
+
+2021-07-10 10:27:26 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '34018'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625912846.2256
+    'REQUEST_TIME' => 1625912846
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 10:37:34 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(40): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+The SQL being executed was: SELECT `product`.* FROM `product` LEFT JOIN `product_descriptor` ON `product`.`id` = `product_descriptor`.`product_id` WHERE `id`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `product...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(40): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'id' in where clause is ambiguous
+)
+
+2021-07-10 10:37:34 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '34244'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625913454.8135
+    'REQUEST_TIME' => 1625913454
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 11:24:58 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(40): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in where clause is ambiguous
+The SQL being executed was: SELECT `product`.* FROM `product` LEFT JOIN `product_descriptor` ON `product`.`id` = `product_descriptor`.`product_id` WHERE `id`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `product...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(40): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1052
+    [2] => Column 'id' in where clause is ambiguous
+)
+
+2021-07-10 11:24:58 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '34622'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625916298.8186
+    'REQUEST_TIME' => 1625916298
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 11:46:57 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][ArgumentCountError] ArgumentCountError: Too few arguments to function yii\db\Query::join(), 1 passed in /app/frontend/models/Product.php on line 49 and at least 2 expected in /app/vendor/yiisoft/yii2/db/Query.php:965
+Stack trace:
+#0 /app/frontend/models/Product.php(49): yii\db\Query->join(Array)
+#1 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#2 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#3 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#5 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#6 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /app/frontend/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2021-07-10 11:46:57 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '34974'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625917617.1054
+    'REQUEST_TIME' => 1625917617
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 11:47:11 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][ArgumentCountError] ArgumentCountError: Too few arguments to function yii\db\Query::join(), 1 passed in /app/frontend/models/Product.php on line 49 and at least 2 expected in /app/vendor/yiisoft/yii2/db/Query.php:965
+Stack trace:
+#0 /app/frontend/models/Product.php(49): yii\db\Query->join('productDescript...')
+#1 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#2 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#3 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#4 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#5 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#6 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#7 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 /app/frontend/web/index.php(17): yii\base\Application->run()
+#9 {main}
+2021-07-10 11:47:11 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '34998'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625917631.7443
+    'REQUEST_TIME' => 1625917631
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 11:58:57 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1 in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(50): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1
+The SQL being executed was: SELECT `product`.* FROM `product` LEFT JOIN `product_descriptor` WHERE `product`.`id`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `product...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(50): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1
+)
+
+2021-07-10 11:58:57 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35146'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625918337.0029
+    'REQUEST_TIME' => 1625918337
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 11:59:09 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1 in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(50): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1
+The SQL being executed was: SELECT `product`.* FROM `product` LEFT JOIN `productDescriptor` WHERE `product`.`id`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `product...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(50): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1
+)
+
+2021-07-10 11:59:09 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35176'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625918349.3874
+    'REQUEST_TIME' => 1625918349
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 11:59:36 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1 in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(50): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1
+The SQL being executed was: SELECT `product`.* FROM `product` LEFT JOIN `product_descriptor` WHERE `product`.`id`=2 in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `product...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(50): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `product`.`id`=2' at line 1
+)
+
+2021-07-10 11:59:36 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35204'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625918376.0347
+    'REQUEST_TIME' => 1625918376
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 12:00:47 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\InvalidArgumentException] yii\base\UnknownMethodException: Calling unknown method: frontend\models\Product::getproduct_descriptor() in /app/vendor/yiisoft/yii2/base/Component.php:301
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1244): yii\base\Component->__call('getproduct_desc...', Array)
+#1 /app/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(177): yii\db\BaseActiveRecord->getRelation('product_descrip...')
+#2 /app/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(144): yii\db\ActiveQuery->normalizeRelations(Object(frontend\models\Product), Array)
+#3 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(224): yii\db\ActiveQuery->findWith(Array, '[<span class="t...')
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(306): yii\db\ActiveQuery->populate(Array)
+#5 /app/frontend/models/Product.php(51): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\base\InvalidArgumentException: frontend\models\Product has no relation named "product_descriptor". in /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php:1247
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(177): yii\db\BaseActiveRecord->getRelation('product_descrip...')
+#1 /app/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(144): yii\db\ActiveQuery->normalizeRelations(Object(frontend\models\Product), Array)
+#2 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(224): yii\db\ActiveQuery->findWith(Array, '[<span class="t...')
+#3 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(306): yii\db\ActiveQuery->populate(Array)
+#4 /app/frontend/models/Product.php(51): yii\db\ActiveQuery->one()
+#5 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#6 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#7 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#8 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#9 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#10 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#11 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 /app/frontend/web/index.php(17): yii\base\Application->run()
+#13 {main}
+2021-07-10 12:00:47 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35268'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625918447.6476
+    'REQUEST_TIME' => 1625918447
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 12:08:27 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: frontend\models\Product::title in /app/vendor/yiisoft/yii2/base/Component.php:210
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(324): yii\base\Component->__set('title', 'product-1123')
+#1 /app/vendor/yiisoft/yii2/db/BaseActiveRecord.php(1192): yii\db\BaseActiveRecord->__set('title', 'product-1123')
+#2 /app/vendor/yiisoft/yii2/db/ActiveRecord.php(515): yii\db\BaseActiveRecord::populateRecord(Object(frontend\models\Product), Array)
+#3 /app/vendor/yiisoft/yii2/db/ActiveQueryTrait.php(123): yii\db\ActiveRecord::populateRecord(Object(frontend\models\Product), Array)
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(219): yii\db\ActiveQuery->createModels(Array)
+#5 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(306): yii\db\ActiveQuery->populate(Array)
+#6 /app/frontend/models/Product.php(55): yii\db\ActiveQuery->one()
+#7 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#8 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#9 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#10 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#11 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#12 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#13 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 /app/frontend/web/index.php(17): yii\base\Application->run()
+#15 {main}
+2021-07-10 12:08:27 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35804'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625918907.2353
+    'REQUEST_TIME' => 1625918907
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 12:11:07 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_descriptor.language' in 'where clause' in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(43): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'product_descriptor.language' in 'where clause'
+The SQL being executed was: SELECT * FROM `product` WHERE (`id`=2) AND (`product_descriptor`.`language`=2) in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT * FROM `...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(43): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'product_descriptor.language' in 'where clause'
+)
+
+2021-07-10 12:11:07 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '35926'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625919067.4223
+    'REQUEST_TIME' => 1625919067
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]
+2021-07-10 12:15:57 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'product_descriptor' in /app/vendor/yiisoft/yii2/db/Command.php:1302
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1302): PDOStatement->execute()
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(56): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1051 Unknown table 'product_descriptor'
+The SQL being executed was: SELECT `product`.*, `product_descriptor`.* FROM `product` WHERE (`product`.`id`=2) AND (`product_descriptor`.`language`=2) in /app/vendor/yiisoft/yii2/db/Schema.php:678
+Stack trace:
+#0 /app/vendor/yiisoft/yii2/db/Command.php(1307): yii\db\Schema->convertException(Object(PDOException), 'SELECT `product...')
+#1 /app/vendor/yiisoft/yii2/db/Command.php(1168): yii\db\Command->internalExecute('SELECT `product...')
+#2 /app/vendor/yiisoft/yii2/db/Command.php(424): yii\db\Command->queryInternal('fetch', NULL)
+#3 /app/vendor/yiisoft/yii2/db/Query.php(287): yii\db\Command->queryOne()
+#4 /app/vendor/yiisoft/yii2/db/ActiveQuery.php(304): yii\db\Query->one(NULL)
+#5 /app/frontend/models/Product.php(56): yii\db\ActiveQuery->one()
+#6 /app/frontend/controllers/ProductController.php(41): frontend\models\Product::getProduct(2)
+#7 [internal function]: frontend\controllers\ProductController->actionIndex(2)
+#8 /app/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#9 /app/vendor/yiisoft/yii2/base/Controller.php(181): yii\base\InlineAction->runWithParams(Array)
+#10 /app/vendor/yiisoft/yii2/base/Module.php(534): yii\base\Controller->runAction('', Array)
+#11 /app/vendor/yiisoft/yii2/web/Application.php(104): yii\base\Module->runAction('product', Array)
+#12 /app/vendor/yiisoft/yii2/base/Application.php(392): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /app/frontend/web/index.php(17): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1051
+    [2] => Unknown table 'product_descriptor'
+)
+
+2021-07-10 12:15:57 [172.26.0.1][-][0e1c392ffb58e1f6a76f63c8cce9a57d][info][application] $_GET = [
+    'r' => 'product'
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => 'cd2e655025a3ecb6df1825ef51651569'
+    'advanced-frontend' => '0e1c392ffb58e1f6a76f63c8cce9a57d'
+    '_rc' => 'e73d7dde2b4c4190bc72c4c7fda3b706'
+    '_ms' => '5523d3f2-f405-45fb-a09b-34dc8e13fb75'
+    '_ga' => 'GA1.1.1116067829.1618943622'
+    'PHPSESSID' => '4940a490c973df33396fee6bc6952f92'
+    'default' => 'b51fc15005b3226c11eb391d098ace82'
+    'XDEBUG_SESSION' => 'PHPSTORM'
+    'biatv-cookie' => '{\"firstVisitAt\":1619198016,\"visitsCount\":1,\"campaignCount\":1,\"currentVisitStartedAt\":1619198016,\"currentVisitLandingPage\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/\",\"currentVisitOpenPages\":5,\"location\":\"http://localhost:8080/ua/pitevaya-posuda/bokaly/\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36\",\"language\":\"ru-ru\",\"encoding\":\"utf-8\",\"screenResolution\":\"1366x768\",\"currentVisitUpdatedAt\":1619205375,\"utmDataCurrent\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"campaignTime\":1619198016,\"utmDataFirst\":{\"utm_source\":\"(direct)\",\"utm_medium\":\"(none)\",\"utm_campaign\":\"(direct)\",\"utm_content\":\"(not set)\",\"utm_term\":\"(not set)\",\"beginning_at\":1619198016},\"geoipData\":{\"country\":\"Ukraine\",\"region\":\"Odes\'ka Oblast\'\",\"city\":\"Odessa\",\"org\":\"PP Zastava Plus\"}}'
+    '_csrf-frontend' => '03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA\";}'
+    '_csrf-backend' => '17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq\";}'
+    'pma_lang' => 'ru'
+    'phpMyAdmin' => '3660856ebee0e1b1f56d66b92a62ec9e'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"91\", \" Not;A Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'advanced-backend=cd2e655025a3ecb6df1825ef51651569; advanced-frontend=0e1c392ffb58e1f6a76f63c8cce9a57d; _rc=e73d7dde2b4c4190bc72c4c7fda3b706; _ms=5523d3f2-f405-45fb-a09b-34dc8e13fb75; _ga=GA1.1.1116067829.1618943622; PHPSESSID=4940a490c973df33396fee6bc6952f92; default=b51fc15005b3226c11eb391d098ace82; XDEBUG_SESSION=PHPSTORM; biatv-cookie={%22firstVisitAt%22:1619198016%2C%22visitsCount%22:1%2C%22campaignCount%22:1%2C%22currentVisitStartedAt%22:1619198016%2C%22currentVisitLandingPage%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/abra/%22%2C%22currentVisitOpenPages%22:5%2C%22location%22:%22http://localhost:8080/ua/pitevaya-posuda/bokaly/%22%2C%22userAgent%22:%22Mozilla/5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit/537.36%20(KHTML%2C%20like%20Gecko)%20Chrome/90.0.4430.85%20Safari/537.36%22%2C%22language%22:%22ru-ru%22%2C%22encoding%22:%22utf-8%22%2C%22screenResolution%22:%221366x768%22%2C%22currentVisitUpdatedAt%22:1619205375%2C%22utmDataCurrent%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22campaignTime%22:1619198016%2C%22utmDataFirst%22:{%22utm_source%22:%22(direct)%22%2C%22utm_medium%22:%22(none)%22%2C%22utm_campaign%22:%22(direct)%22%2C%22utm_content%22:%22(not%20set)%22%2C%22utm_term%22:%22(not%20set)%22%2C%22beginning_at%22:1619198016}%2C%22geoipData%22:{%22country%22:%22Ukraine%22%2C%22region%22:%22Odes\'ka%20Oblast\'%22%2C%22city%22:%22Odessa%22%2C%22org%22:%22PP%20Zastava%20Plus%22}}; _csrf-frontend=03e839da0f4803e24d4049780bf23ee3e4458c39acf52023240a9b4a579934c8a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22Bg8hQoOBEjNVbYEAkFurrRkaA4GSl8EA%22%3B%7D; _csrf-backend=17b0d20e6bf720190ee8b780b337928d42347a37f9a3f2a92a26af86873d177aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22-O5CnDIGzGa_HDQU7bKwg6UIiWO3OEzq%22%3B%7D; pma_lang=ru; phpMyAdmin=3660856ebee0e1b1f56d66b92a62ec9e'
+    'PATH' => '/app:/app/vendor/bin:/root/.composer/vendor/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.38 (Debian) Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.38 (Debian)'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '172.26.0.5'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '172.26.0.1'
+    'DOCUMENT_ROOT' => '/app/frontend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/app/frontend/web'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/app/frontend/web/index.php'
+    'REMOTE_PORT' => '36190'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=product&id=2'
+    'REQUEST_URI' => '/index.php?r=product&id=2'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1625919357.3599
+    'REQUEST_TIME' => 1625919357
+    'argv' => [
+        0 => 'r=product&id=2'
+    ]
+    'argc' => 1
+]

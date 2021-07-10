@@ -40,6 +40,7 @@
       //$product = Product::findOne($id);
       $product = Product::getProduct($id);
       
-      return $this->render('index', ['product'=>$product->productDescriptor]);
+      return $this->render('index', ['product'=>$product]);
+      //return $this->render('index', ['product'=>$product->productDescriptor]);
     }
   }
